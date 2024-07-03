@@ -1,0 +1,156 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/assets/images/Background_Intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro > img {
+  width: 32px;
+  margin-bottom: 57px;
+}
+
+.info {
+  margin: 120px 163px 94px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile .avatar {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+
+.avatar div:nth-child(2) {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.profile .description .title p {
+  font: var(--subtitle) ;
+  color: var(--gray-500);
+
+  span {
+    color: var(--red);
+  }
+}
+
+.profile .description .title h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+
+  margin-block: 8px 20px;
+}
+
+.profile .description p {
+  max-width: 680px;
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* TAGS */
+.tags {
+  font: var(--text-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 80px;
+}
+
+.tags .tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 99px;
+  background-color: var(--gray-300);
+}
+
+.tags .tag p {
+  color: var(--gray-500);
+}
+
+.tags .tag {
+  transition: 0.3s ease-in-out;
+}
+
+.tags .tag:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+  
+  p {
+    color: black;
+  }
+
+}
+
+.tags .tag:nth-child(1):hover {
+  img {
+    content: url(/assets/icons/GitHubHover.svg);
+  }
+}
+
+.tags .tag:nth-child(2):hover {
+  img {
+    content: url(/assets/icons/HTMLHover.svg);
+  }
+}
+
+.tags .tag:nth-child(3):hover {
+  img {
+    content: url(/assets/icons/CSSHover.svg);
+  }
+}
+
+.tags .tag:nth-child(4):hover {
+  img {
+    content: url(/assets/icons/JavaScriptHover.svg);
+  }
+}
+
+.tags .tag:nth-child(5):hover {
+  img {
+    content: url(/assets/icons/ReactHover.svg);
+  }
+}
+
+.tags .tag:nth-child(6):hover {
+  img {
+    content: url(/assets/icons/Node.jsHover.svg);
+  }
+}
