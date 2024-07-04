@@ -1,0 +1,128 @@
+/* PROJECTS START */
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-200);
+}
+
+#projects header {
+  text-align: center;
+  margin: 72px auto 56px;
+
+  p {
+    font: var(--subtitle);
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+  }
+}
+
+#projects .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 24px;
+  
+  margin: 0px auto 144px;
+}
+
+#projects .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  padding: 12px 12px 17px;
+  row-gap: 20px;
+  background-color: var(--gray-300);
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+}
+
+#projects .card figcaption {
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-600);
+  }
+}
+/* PROJECTS END */
+
+/* SERVICES START */
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-100);
+}
+
+#services header {
+  text-align: center;
+  margin: 88px auto 56px;
+
+  p {
+    font: var(--subtitle);
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+  }
+}
+
+#services .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto 120px;
+  gap: 24px;
+}
+
+#services .card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;  
+  border:  1px solid var(--gray-200);
+  padding: 20px;
+
+  img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+  }
+
+}
+
+#services .card figcaption {
+  strong {
+    font: var(--title-sm);
+    color: var(--gray-600);
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-600);
+    margin-top: 8px;
+  }
+}
+
+
