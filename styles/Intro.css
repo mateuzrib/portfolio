@@ -52,11 +52,10 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
-
 }
 
 .profile .description .title p {
-  font: var(--subtitle) ;
+  font: var(--subtitle);
   color: var(--gray-500);
 
   span {
@@ -82,7 +81,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 /* TAGS */
@@ -117,11 +115,10 @@
   background-color: #fff;
   transform: scale(1.03);
   transition: 0.3s ease-in-out;
-  
+
   p {
     color: black;
   }
-
 }
 
 .tags .tag:nth-child(1):hover {

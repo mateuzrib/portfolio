@@ -1,21 +1,21 @@
 :root {
-  --gray-100: #0D0E11;
-  --gray-200: #16181D;
-  --gray-300: #292C34;
-  --gray-400: #878EA1;
-  --gray-500: #C0C4CE;
-  --gray-600: #E2E4E9;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
 
-  --red: #E3646E;
-  --purple: #BB72E9;
-  --blue: #3996DB;
-  --green: #82BC4F;
-  --yellow: #EABD5F;
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
 
   --font-asap: "Asap", sans-serif;
   --title-lg: 700 56px / 120% var(--font-asap);
-  --title-md: 700 24px / 120% var(--font-asap);  
-  --title-sm: 700 16px / 120% var(--font-asap); 
+  --title-md: 700 24px / 120% var(--font-asap);
+  --title-sm: 700 16px / 120% var(--font-asap);
 
   --font-inconsolata: "Inconsolata", monospace;
   --subtitle: 400 20px / 120% var(--font-inconsolata);
