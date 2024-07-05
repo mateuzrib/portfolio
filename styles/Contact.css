@@ -4,7 +4,7 @@
   align-items: center;
   gap: 48px;
 
-  background-image: url(/assets/images/Background_Contacts.png);
+  background-image: url("../assets/images/Background_Contacts.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
