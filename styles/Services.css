@@ -38,7 +38,6 @@
 
   img {
     width: 32px;
-    height: 32px;
     margin-bottom: 20px;
   }
 
@@ -54,5 +53,12 @@
     font: var(--text-sm);
     color: var(--gray-600);
     margin-top: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  #services .grid {
+    grid-template-columns: 1fr;
+    margin: 10px;
   }
 }
